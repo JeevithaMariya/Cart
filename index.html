@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="accordion-container">
+        <h2><span>Bundle & Save</span></h2><br>
+
+        <div class="accordion-box" onclick="toggleAccordion(this)">
+            <div class="content">
+                <li style="display: inline;"> <INPUT TYPE="Radio" name="age" value="10" style="float: left;"></li>
+                <li style="display: inline;">Pair <br><span style="margin-left: 20px;font-size: smaller;">DKK
+                        345.00</span></li>
+                <li style="display: inline;float: right;font-size: smaller;">50% OFF</li>
+            </div>
+            <div class="accordion-content" style="width: 100%;">
+                <div class="" onclick="selectColor(this)" style="width: 50%;float: left;">
+                    <h4>Colors</h4>
+                    <select>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="gray">Gray</option>
+                    </select>
+                </div>
+                <div class="" onclick="selectSize(this)" style="width: 50%;float: left;">
+                    <h4>Size</h4>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-box" onclick="toggleAccordion(this)">
+            <div class="content">
+                <li style="display: inline;"> <INPUT TYPE="Radio" name="age" value="20" style="float: left;"></li>
+                <li style="display: inline;">Pair <br><span style="margin-left: 20px;    font-size: smaller;">DKK
+                        345.00</span></li>
+                <li style="display: inline;font-size: small;"><s>DKK 195.00</s></li>
+                <li style="display: inline;    font-size: smaller;float: right;color: #31925d;margin-top: -15px;">
+                    <span>Most Popular</span><br>40% OFF</li>
+                </ul>
+            </div>
+            <div class="accordion-content" style="width: 100%;">
+                <div class="" onclick="selectColor(this)" style="width: 50%;float: left;">
+                    <h4>Colors</h4>
+                    <select>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="gray">Gray</option>
+                    </select>
+                </div>
+                <div class="" onclick="selectSize(this)" style="width: 50%;float: left;">
+                    <h4>Size</h4>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-box" onclick="toggleAccordion(this)">
+            <div class="content">
+                <li style="display: inline;"> <INPUT TYPE="Radio" name="age" value="30" style="float: left;" /></li>
+                <li style="display: inline;">Pair <br><span style="margin-left: 20px;    font-size: smaller;">DKK
+                        345.00</span></li>
+                <li style="display: inline;float: right;    font-size: smaller;">60% OFF</li>
+                </ul>
+            </div>
+            <div class="accordion-content" style="width: 100%;">
+                <div class="" onclick="selectColor(this)" style="width: 50%;float: left;">
+                    <h4>Colors</h4>
+                    <select>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="gray">Gray</option>
+                    </select>
+                </div>
+                <div class="" onclick="selectSize(this)" style="width: 50%;float: left;">
+                    <h4>Size</h4>
+                    <select>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p style="color: #31925d;">Free 2 Day Shipping <span style="float: right;color: #000;">Total:DKK
+                    360.00</span></p>
+        </div>
+        <button>+ Add to Cart</button>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
